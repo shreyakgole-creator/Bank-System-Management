@@ -7,6 +7,8 @@ import jakarta.persistence.OneToMany;
 
 import  java.util.*;
 
+@Entity
+@Table(name = "accounts")
 public class Account
 {
     @Id
