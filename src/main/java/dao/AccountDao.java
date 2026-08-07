@@ -2,6 +2,8 @@ package dao;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
+import entity.Account;
+import entity.Transaction;
 
 public class AccountDao
 {
